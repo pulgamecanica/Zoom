@@ -1,0 +1,22 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.image-wrap {
+ max-width: 640px;
+ margin: 50px auto;
+}
+
+.image {
+ width: 100%;
+ padding-top: calc(100% / (16/9));
+ background-image: url('https://www.topgear.com/sites/default/files/styles/16x9_1280w/public/news-listicle/image/2017/04/1_1.jpg');
+ background-size: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.image:active {
+  background-size: 350%;
+}
