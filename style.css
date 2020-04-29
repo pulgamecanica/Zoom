@@ -17,6 +17,6 @@
  background-position: center;
  background-repeat: no-repeat;
 }
-.image:active {
+.image:hover {
   background-size: 350%;
 }
